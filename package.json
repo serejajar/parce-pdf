@@ -1,0 +1,25 @@
+{
+  "name": "parse-pdf",
+  "version": "1.0.0",
+  "description": "Simple PDF parser by nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serejajar/parse-pdf.git"
+  },
+  "author": "Sergey Jar",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/serejajar/parse-pdf/issues"
+  },
+  "homepage": "https://github.com/serejajar/parse-pdf#readme",
+  "dependencies": {
+    "pdf-to-text": "^0.0.7"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^14.2.1"
+  }
+}
