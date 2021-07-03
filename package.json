@@ -4,7 +4,8 @@
   "description": "Simple PDF parser by nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "eslint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "pdf-to-text": "^0.0.7"
   },
   "devDependencies": {
+    "eslint": "^7.29.0",
     "eslint-config-airbnb-base": "^14.2.1"
   }
 }

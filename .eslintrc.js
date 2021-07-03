@@ -11,4 +11,8 @@ module.exports = {
     sourceType: 'module',
   },
   ignorePatterns: ['*.test.js'],
+  rules: {
+    'no-plusplus': 'off',
+    'no-continue': 'off',
+  },
 };
